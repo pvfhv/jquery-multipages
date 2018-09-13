@@ -1,3 +1,4 @@
+/* eslint-disable */
 const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -29,22 +30,10 @@ const production = {
 const isProd = process.env.NODE_ENV === 'production'
 process.traceDeprecation = false
 
-const entry = (function () {
-    const modules = ['./src/login/index.js', './src/index.js']
-    let app = [
-        `webpack-dev-server/client?http://${ip}:${port}`,
-        'webpack/hot/only-dev-server',
-        ...modules
-    ]
-
-    if (isProd) {
-        app = modules
-    }
-
-    return {
-        app
-    }
-}())
+const entry = {
+    login: './src/login/index.js',
+    app: './src/index.js'
+}
 
 const optimization = {
     splitChunks: {
@@ -228,6 +217,7 @@ let plugins = [
         filename: 'login.html',
         favicon: 'src/images/favicon.ico',
         inject: true,
+        chunks: ['vendor', 'login'],
         minify: {
             removeComments: true
         },
@@ -240,6 +230,7 @@ let plugins = [
         filename: 'index.html',
         favicon: 'src/images/favicon.ico',
         inject: true,
+        chunks: ['vendor', 'app'],
         minify: {
             removeComments: true
         },
