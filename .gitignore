@@ -1,0 +1,12 @@
+/.sass-cache
+/.idea
+/node_modules
+/dist
+/package-lock.json
+/*.log
+/*-compiled.js
+/**/.DS_Store
+/*tmpData*.*
+
+# Optional eslint cache
+/.eslintcache

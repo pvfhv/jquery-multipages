@@ -1,0 +1,248 @@
+$theme:"default";
+
+$font-path: "fonts" !default;
+$font-family: "siyuan", "Microsoft YaHei", "SimSun", "Roboto-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif!important;                                                                                                          
+$gray-bb: #bbbbbb;
+$gray-cc: #cccccc;
+$gray-e6: #e6e6e6;
+$gray-ed: #ededed;
+$gray-73: #737373;
+$gray-55: #555555;
+$gray-66: #666666;
+$gray-77: #777777;
+$gray-dd: #dddddd;
+$gray-ee: #eeeeee;
+$blue-d3:#d3e6f0;
+$blue-84:#84d1f7;
+$blue-8b:#8bcdf6;
+$blue-04:#043b56;
+$black: #000000;
+$white: #ffffff;
+$green: #00c76c;
+$red: #eb5352;
+$errorred: #e0345a;
+$chief_bg_color: #edf0f3;
+$main-normal-color:#2d8cc8;
+$main-active-color:#f08654;
+$main-active-thin-color:#ece1db;
+$main-history-active-color:#81bade;
+$main-blue-color: #2a83ff;
+$main-active-light-color:#f2e3da;
+$main-table-hover-color:#fdf3ee;
+
+$light-border-color: #c8d0de;
+$dark-border-color: #b0bdd5;
+
+$login-bg-color: #E5E9F4;
+$login-main-bg-color: #e3e9f4;
+$login-main-border-color: #9ac0f9;
+$login-box-input-focus: #2a83ff;
+$login-btn-bg-color: #2c6cb7;
+$login-role-checked: #2a83ff;
+
+$header-bg-color: #1b447b;
+$header-active-color: #ffffff;
+$header-active-bgcolor: #1f4071;
+$header-font-color: #6b9bb2;
+
+$subheader-bg-color: #e2e5ec;
+$subheader-border-color: #e2e5ec;
+$subheader-text-color: #56688a;
+$subheader-nav-bg-color: #cfd7e2;
+$subheader-active-nav-bg-color: #fff;
+
+$main-left-bgcolor:#ebf2f5;
+$main-left-fontcolor:#337ab7;
+$main-border-color:#cee5f0;
+$main-nav-bgcolor:#e2eff6;
+
+$body-bg-color:#0f233a;
+$body-background-image:linear-gradient(transparent 0, transparent,transparent 90%, #12263c 90%, #12263c), linear-gradient(90deg, transparent,transparent 90%, #12263c 90%, #12263c);
+$box-shadow-color: rgba(42, 93, 168, 0.2);
+
+$text-color:#ccc;
+$active-color:#498cff;
+$label-color:#f8f4f4;
+
+$split-line-color:#dfe2e5;
+$active-border:rgba(73, 140, 255, 0.2);
+
+$header-nav-text-color:#bbe3fc;
+$header-nav-active-text-color:#fff;
+$header-shadow-color:#0e1c2d;
+
+$tabs-tab-text-color:rgb(86, 104, 138);
+$tabs-tab-text-active-color:#498cff;
+$sub-nav-tab-bg-color:#cfd9e8;
+$sub-nav-tab-text-shadow-color:rgba(255, 255, 255, 0.4);
+$sub-nav-tab-split-color:rgba(86, 104, 138, 0.102);
+
+$simple-tabs-bar-border-color:rgb(200, 208, 222);
+
+$ml-label-color: #f8f4f4;
+
+//实体图标
+$data-default-bg-color:#3a9caa;
+$data-person-bg-color:#4887bd;
+$data-person-female-bg-color:#d47fa9;
+
+//搜索框
+$search-input-shadow: 0px 1px 4px 0px rgba($black, .2),inset 0px 0px 1px 0px rgba($white, .2);
+$search-input-light-text-color: #56688a;
+$search-input-dark-text-color: #fff;
+$search-input-light-border-color: $light-border-color;
+$search-input-dark-border-color: $dark-border-color;
+$search-input-light-bg-color: #fff;
+$search-input-dark-bg-color: #49679f;
+$search-input-button-bg-color: #4b90fb;
+$search-input-button-text-color: #fff;
+$search-input-res-shadow-color:#e9e9e9;
+$search-input-res-bg-color: #fbfbfc;
+$search-input-res-border-color: #c8d0dd;
+$search-input-res-color: #707070;
+$search-input-res-hover-bg-color: #eef5fd;
+$search-input-help-color: #aaaaaa;
+
+$search-shadow-color: rgba(#2a5da8,.2);
+$search-text-color: #333;
+$search-border-color:$light-border-color;
+$search-active-color: #498cff;
+$search-hover-bg-color: rgba(#498cff,.2);
+$search-rs-header-bg-color: #eff2f9;
+$search-checkbox-color: #576989;
+
+//图析
+$graph-panel-bg-color:#edf0f3;
+$graph-right-panel-bg-color:#1c3657;
+$graph-bottom-panel-bg-color:#1f3a5d;
+$graph-history-list-text-color:$text-color;
+$graph-history-list-border-color:#274a7f;
+$graph-history-list-active-bg-color:#1ac9ff;
+$graph-history-list-active-text-color:#fff;
+$graph-event-bg-color:#5b759d;
+$graph-toolbar-arrow-color:#3975fa;
+
+//条件扩展背景
+$special-expand-group-bg-color:#103c6e;
+$special-expand-group-border-color:#0e3663;
+$special-expand-label-color:$label-color;
+$special-expand-text-color:$text-color;
+
+//档案
+$file-baseinfo-border-color:#c5ccd9;
+$file-baseinfo-shadow-color:rgba(0, 0, 0, 0.2);
+$file-baseinfo-shadow-inner-color:rgba(255, 255, 255, 0.004);
+$file-relation-thead-text-color: #343434;
+$file-relation-thead-bg-color: #fff;
+$file-relation-tbody-text-color: #707070;
+$file-relation-tbody-bg-odd-color: rgba(241, 242, 245,.4);
+$file-relation-tbody-bg-even-color: #fff;
+$file-relation-tbody-tr-hover-color: rgba(89, 141, 247, 0.251);
+$file-relation-tbody-tr-hover-shadow-color: rgba(89, 141, 247, 0.251);
+$file-banner-title-text-color: #b5cce5;
+$file-banner-title-bg-color: #1f3d60;
+$file-banner-title-border-color: #214266;
+
+//小明检索
+$litemind-serial-bg-color:#9aa5b8;
+$litemind-serial-text-color:#fff;
+$litemind-title-color:#707070;
+$litemind-sub-header-text-color:#576989;
+$litemind-sub-header-bg-color:#eff2f9;
+$litemind-fix-top-bg-color: #ffffff;
+$litemind-fix-top-shadow-color: rgba(11, 38, 77, 0.5);
+$litemind-relation-bg-color: #f5f7f9;
+$litemind-result-border-color: #c8d0dd;
+$litemind-no-tags-color: #cccccc;
+$litemind-tip-number-text-color: #576989;
+
+//战法模型
+$harts-font-color: #56688a;
+$harts-icon-font-color: #99a3b9;
+$harts-title-txt-color: #bfc6d9;
+$harts-border-color: #7b8fa6;
+$harts-modal-bg-color: #123e73;
+$harts-modal-top-bg-color:#123e73;
+$harts-modal-border-color: #3266aa;
+$harts-error-color: #fa4b51;
+$harts-modal-divider-color: #123b6e;
+$harts-modal-font-color: $harts-font-color;
+$harts-modal-selected-color: #34b3fc;
+$harts-modal-checked-color: #ffffff;
+$harts-modal-current-color: #1c4c81;
+$harts-modal-label-color: #ffffff;
+$harts-modal-event-border-color: $harts-modal-border-color;
+$harts-modal-unchecked-color: #3571f1;
+$harts-arrow-disabled-color: #67809d;
+$harts-form-font-color: #ffffff;
+$harts-form-disabled-font-color: #8ca8cb;
+$harts-share-state-bg-color: rgb(120, 162, 243);
+$harts-share-text-color: #ffffff;
+
+//便签
+$note-modal-header-bg-color:#cad9eb;
+$note-modal-header-shadow:inset 0px 1px 0px 0px rgba(#fff, 0.5);
+$note-modal-content-line-color: #8da0bc;
+$note-modal-content-border-color:#8da0bc;
+$note-modal-time-color:#909090;
+$note-modal-user-icon-color:#707070;
+$note-modal-user-color:#343434;
+$note-modal-top-icon-color:#56688a;
+$note-modal-input-color:#707070;
+
+$graph-note-bg-color:#D7E6F5;
+$graph-note-text-color:#666666;
+$graph-note-border-color:#C3D2E3;
+$graph-note-box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.15);
+
+// 轨迹
+$slider-bg-color: #f6a828;
+$slider-unit-bg: rgba(36, 82, 117, 0.45);
+$track-impact-border-color: #dddee4;
+$track-impact-bg-color: rgba(245, 245, 245, 0.8);
+$track-impact-font-color: #3f3f3f;
+$track-impact-list-color: #646464;
+$track-impact-count-color: #969696;
+$track-impact-map-hover: #1798f2;
+$track-map-item-bg: rgb(255, 255, 255);
+$track-map-item-border-color: #0ba26c;
+$track-map-item-relation: #2b79bb;
+$track-map-item-event: #dedede;
+$track-map-item-border-color: #6fb6ea;
+$track-map-item-selected-border-color: #03fbf7;
+$track-map-item-count-color: #fff;
+$track-map-item-count-bg: #f00;
+
+// 统计
+$statistic-bg-color: #f7fafe;
+$statistic-collapse-header-color:#56688a;
+$statistic-txt-color: #707070;
+$statistic-txt-active-color: #498cff;
+$statistic-bar-bg-color: #d8e1f0;
+$statistic-bar-bg-active-color: #498cff;
+$statistic-props-txt-color: #333333;
+$statistic-line-color: #c8d0de;
+$statistic-slider-handle-border-color: #c8d0de;
+
+// 详情
+$detail-relation-line-color: #cccccc;
+$detail-relation-node-text-color: #333333;
+$detail-relation-line-text-color: #343434;
+$detail-minor-list-title-bg-color: #ebf2fc;
+$detail-element-list-border-color: #c8d0de;
+
+// 分组checkbox
+$checkbox-group-text-color: #56688a;
+$checkbox-group-bg-color: #f0f2f5;
+$checkbox-group-border-color: #c8d0dd;
+
+// 图析-右键弹出窗口
+$graph-popup-window-label-color: #333333;
+
+// 检索
+$search-detail-text-color: #2382d2;
+$search-hint-text-color: #323232;
+$search-hint-info-color: #6695e5;
+$search-list-shadow-color: rgba(199, 208, 222, 0.004);
+$search-list-title-color: #55698a;
+
