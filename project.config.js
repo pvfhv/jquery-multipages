@@ -30,14 +30,15 @@ const isProd = process.env.NODE_ENV === 'production'
 process.traceDeprecation = false
 
 const entry = (function () {
+    const modules = ['./src/login/index.js', './src/index.js']
     let app = [
         `webpack-dev-server/client?http://${ip}:${port}`,
         'webpack/hot/only-dev-server',
-        './src/index.js'
+        ...modules
     ]
 
     if (isProd) {
-        app = './src/index.js'
+        app = modules
     }
 
     return {
@@ -222,8 +223,20 @@ let plugins = [
     }),
     new HtmlWebpackPlugin({
         template: path.join(APP_PATH, 'index.html'),
-        title: '示例工程',
-        description: '这是工程的描述信息',
+        title: '登录页',
+        description: '这是登录页的描述信息',
+        filename: 'login.html',
+        favicon: 'src/images/favicon.ico',
+        inject: true,
+        minify: {
+            removeComments: true
+        },
+        cache: false
+    }),
+    new HtmlWebpackPlugin({
+        template: path.join(APP_PATH, 'index.html'),
+        title: '内页',
+        description: '这是内页的描述信息',
         filename: 'index.html',
         favicon: 'src/images/favicon.ico',
         inject: true,
